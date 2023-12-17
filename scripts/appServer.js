@@ -16,6 +16,21 @@ function saveTask(){
 
     //display the task
 }
+
+function testRequest(){
+    $.ajax({
+        type: "GET",
+        url: "http://fsdiapi.azurewebsites.net",
+        success:function(respone)
+        {
+            let data = JSON.parse(respone);
+            
+        },
+        error:function(error){
+            console.log(error);}
+    
+    });
+}
 function init() {
 
     // load the data
