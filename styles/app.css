@@ -1,30 +1,7 @@
-/* html, body {
-    margin: 0;
-}
 
-h1 {
-  color: azure;
-  background-color: black;
-  text-align: center;
-  margin: 0;
-}
 
-main {
-  display: flex;
-  height: calc(100vh - 37px);
-}
 
-#list {
-  background-color: aquamarine;
-  flex: 2;
-}
-
-#form {
-  background-color: greenyellow;
-  flex: 2;
-} */
- /* Reset some default styles for better consistency across browsers */
-body, h1, h2, h3, p, ul, li {
+ body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
